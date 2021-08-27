@@ -40,6 +40,7 @@ ul{
   position: absolute;
   right: -119px;
   top: -20px;
+  z-index: 2;
 }
 .hero{
   position: relative;
@@ -134,7 +135,7 @@ ul{
 }
 .comforts-list{
   position: relative;
-  padding-bottom: 200px;
+  padding-bottom: 130px;
 }
 .comforts-item{
   background: #FFFFFF;
@@ -189,6 +190,181 @@ ul{
   width: 80px;
   
 }
+/* hero and header end */
+/* section popular product */
+.popular-title{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32.25px;
+  line-height: 48px;
+  text-align: center;
+  color: #170C04;
+  margin-bottom: 18px;
+}
+.popular-rext{
+  width: 505px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #170C04;
+  margin-bottom: 25px;
+  
+}
+.products{
+  margin-bottom: 57px;
+  margin-bottom: 66px;
+}
+.popular1{
+  width: 555px;
+
+}
+.product1{
+  background: #FCF2EB;
+  border-radius: 20px;
+  display: inline-block;
+  width: 555px;
+  height: 420px;
+}
+.product1-img{
+  padding: 71px 91px;
+  display: block;
+
+}
+.product1-title{
+ 
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 37px;
+  text-align: center;
+  color: #170C04;   
+   
+}
+.product1-link{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #E27B3A;
+  text-align: center;
+  display: block;
+  width: 88px;
+}
+.product-img{
+  width: 360px;
+  height: 273px;
+  background: #FCF2EB;
+  border-radius: 10px; 
+  display: block;
+}
+.products-item{
+  width: 360px;
+}
+.pro{
+  display: block;
+  margin: 0px auto;
+  position: relative;
+  top: 50px;
+ 
+}
+.pro1{
+  position: relative;
+  right: -27px;  
+}
+.pro-button{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #E27B3A;
+  padding: 12px 30px;
+  border: 1px solid #E27B3A;
+  border-radius: 4px;
+  display: block;
+  width: 180px;
+  margin-top: 46px;
+}
+.prodacts-buttton{
+  padding-bottom: 58px;
+}
+
+/* pupular products end */
+/* servises */
+.with-servises-des{
+  width: 419px;
+}
+.servises-title{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32.25px;
+  line-height: 45px;
+  color: #170C04;
+  margin-bottom: 18px;
+}
+.servises-text{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #170C04;
+  margin-bottom: 40px;
+  
+}
+.servises{
+  padding-bottom: 86px;
+}
+/* servises-end */
+/* about */
+.about-t-with{
+  width: 256px;
+  text-align: center;
+}
+.about-item{
+  width: 310px;
+}
+.a-item-title{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #170C04;
+  width: 297px;
+  margin-top: 51px;
+  margin-bottom: 22px;
+  
+}
+.about-button{
+  width: 131px;
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 150px;
+}
+.about-list{
+  margin-bottom: 46px;
+}
+.a-item-text{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #170C04;
+  width: 310px;
+  margin-bottom: 15px;
+}
+/* about-end */
+/* footer */
 #footer-contents{
   background: #140A03;
 }
