@@ -324,8 +324,9 @@ ul{
 /* servises-end */
 /* about */
 .about-t-with{
-  width: 256px;
+  width: 308px;
   text-align: center;
+  margin-bottom: 36px;
 }
 .about-item{
   width: 310px;
