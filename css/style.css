@@ -9,7 +9,7 @@ a{
   text-decoration: none;
 }
 body{
-  overflow-x: hidden;
+ overflow-x: hidden;
 }
 ul{
   list-style: none;
@@ -87,12 +87,19 @@ ul{
 .head-item + .head-item{
   margin-left: 39px;
 }
-.head-backround{
-  position: absolute;
-  top: -37px;
-  right: -175px;
-  z-index: 1;
+/* .wrapper{
+  max-width:1500px;
+  margin: 0 auto;
+} */
+.head{
+ max-width: 1400px;
+ margin: 0 auto;
+  background-image: url(../img/set.svg);
+  background-position: calc(100% - -90px) calc(100% - 135px); 
+  background-repeat: no-repeat;
+
 }
+
 .hero-title{
   font-family: Poppins;
   font-style: normal;
@@ -128,6 +135,33 @@ ul{
   padding: 12px 30px;
   border: 1px solid #E27B3A;
   border-radius: 24px;
+}
+.comforts-item::before{
+  content: "";
+  width: 63px;
+  height: 55px;
+  position: absolute;
+}
+.img1::before{
+  background-repeat: no-repeat;
+  background-image: url('../img/corn.png');
+  top: -12%;
+  right: 50%;
+  margin-right: -32px;
+}
+.img2::before{
+  background-repeat: no-repeat;
+  background-image: url('../img/corn2.png');
+  top: -12%;
+  right: 50%;
+  margin-right: -32px;
+}
+.img3::before{
+  background-repeat: no-repeat;
+  background-image: url('../img/corn3.png');
+  top: -12%;
+  right: 50%;
+  margin-right: -32px;
 }
 
 .hero{
@@ -425,4 +459,18 @@ ul{
   position: absolute;
   left: -25px;
   top: 64px;
+}
+.footer-item{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  opacity: 0.8;
+  
+}
+.button-hed{
+  border: hidden;
+  background-color: #FFFFFF;
 }
